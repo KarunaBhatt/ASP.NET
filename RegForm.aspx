@@ -1,14 +1,14 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="regstraion.aspx.cs" Inherits="RegForm" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="RegForm.aspx.cs" Inherits="RegForm" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head id="Head1" runat="server">
+<head runat="server">
     <title></title>
 </head>
-<body style="background-image:url('');backgound-repeat:no-repeat;background-size:cover;">
+<body style="background-image:url(');backgound-repeat:no-repeat;background-size:cover;">
     <form id="form1" runat="server">
-    <div> 
+    <div>
        <h1>SignIn</h1>
         </br>
         </br>
@@ -31,7 +31,7 @@
         </br>
         </br>
 
-        <asp:Label ID="Label5" runat="server" Text="Mobile No :"></asp:Label>
+         <asp:Label ID="Label5" runat="server" Text="Mobile No :"></asp:Label>
         <asp:TextBox ID="TMoNo" runat="server"></asp:TextBox>
         </br>
         <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="TMoNo" ErrorMessage="Please Enter valid Phone No !" ValidationExpression="\d{10}"></asp:RegularExpressionValidator>
