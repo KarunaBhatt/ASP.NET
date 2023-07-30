@@ -1,0 +1,72 @@
+﻿
+
+body {
+    background-image:url('img2.jpg');background-repeat:no-repeat;background-size:cover;
+    font-family : Century;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family : Century;
+}
+
+#Label6 {
+    background-position: center;
+    text-align: center;
+}
+#TextBox1 {
+    text-align: right;
+}
+.name {
+    text-align: right;
+    margin-right: 690px;
+    /*margin-leftL: 170px;*/
+}
+
+#form1 {
+    margin-left: 400px;
+    margin-top: 80px;
+    background-color: rgba( 0, 0, 0,0.5);
+    border-radius: 25px;
+    border: 3px solid white;
+    padding: 20px;
+    width: 40%;
+    height: 60%;
+    text-align: center;
+}
+
+ #TextBox5 {
+     margin : 3px;
+    border-radius:20px;
+}
+
+#TextBox2 {
+    border-radius: 20px;
+    margin : 3px;
+}
+
+#TextBox3 {
+    border-radius: 20px;
+    margin : 3px;
+}
+
+#TextBox4 {
+    border-radius: 20px;
+    margin : 3px;
+}
+
+.btn  {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    border-radius: 20px;
+    margin : 3px;
+
+  
+}
+.btn:hover {
+    border-radius: 20px;
+    background-color:black;
+    color:white;
+}

@@ -1,0 +1,5 @@
+D:\karuna\nursery\regform\regform\bin\regform.dll
+D:\karuna\nursery\regform\regform\bin\regform.pdb
+D:\karuna\nursery\regform\regform\obj\Debug\regform.csprojResolveAssemblyReference.cache
+D:\karuna\nursery\regform\regform\obj\Debug\regform.dll
+D:\karuna\nursery\regform\regform\obj\Debug\regform.pdb
